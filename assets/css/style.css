@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: black;
 }
 
 a {
@@ -415,10 +416,29 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/goa_ngungli.jpeg") top center;
+  /* use this to change the hero to image */
+  /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/goa_ngungli.jpeg") top center; */
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
+  /* Comment this overflow hidden to use image on the hero instead */
+  overflow: hidden; 
+}
+
+/* this hero-video is use for styling video tag if the hero is using video instead of just image, 
+so no need to comment this if only use image in the hero */
+#hero-video {
+  position: absolute;
+  opacity: .7;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  /* Ensures video covers the whole area */
+  object-fit: cover; 
+  transform: translate(-50%, -50%);
+  /* Ensure the video is behind other content */
+  z-index: -1; 
 }
 
 #hero .hero-container {
@@ -432,6 +452,8 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  /* Comment this z-index to use image in the hero instead */
+  z-index: 1;
 }
 
 #hero h1 {
@@ -683,6 +705,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background-color: white;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -840,6 +866,10 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: white;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1103,6 +1133,10 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team {
+  background-color: white;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 80px;
