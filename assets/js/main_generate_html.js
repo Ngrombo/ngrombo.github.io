@@ -264,12 +264,20 @@ video_contents.forEach((data) => {
     videoTag.setAttribute("controls", "");
 
     const sourceTag = document.createElement("source");
-    sourceTag.src = data;
+    sourceTag.src = data.videoLink;
     sourceTag.type = "video/mp4";
 
     videoTag.appendChild(sourceTag);
+
+    const h4Title = document.createElement("h4");
+    h4Title.innerHTML = data.judul;
+
+    const pDesc = document.createElement("p");
+    pDesc.innerHTML = data.deskripsi;
     
     liSlide.appendChild(videoTag);
+    liSlide.appendChild(h4Title);
+    liSlide.appendChild(pDesc);
     ulSlidesContainer.appendChild(liSlide);
 });
 
