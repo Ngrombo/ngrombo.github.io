@@ -5,18 +5,18 @@
 
 const galeri_foto = [
     {
-        gambar: "portfolio-1.jpg",
-        judul: "Foto 1",
+        gambar: "sebelah_dukuh.png",
+        judul: "Foto Sebelah Dukuh",
         link_ke_sumber_lain: ""
     },
     {
-        gambar: "portfolio-2.jpg",
-        judul: "Foto 2",
+        gambar: "sd.png",
+        judul: "Sekolah Dasar",
         link_ke_sumber_lain: ""
     },
     {
-        gambar: "portfolio-3.jpg",
-        judul: "Foto 3",
+        gambar: "voli.png",
+        judul: "Kegiatan Voli",
         link_ke_sumber_lain: ""
     },
     {
