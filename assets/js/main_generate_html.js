@@ -308,19 +308,41 @@ const ulSlidesContainer = document.createElement("ul");
 ulSlidesContainer.className = "slides-container";
 ulSlidesContainer.id = "slides-container";
 
+function extractValueFromUrl(url) {
+    const regex = /\/d\/(.*?)\//;
+    const match = url.match(regex);
+
+    if (match && match[1]) {
+        return match[1];
+    } else {
+        return null;
+    }
+}
+
 video_contents.forEach((data) => {
     const liSlide = document.createElement("li");
     liSlide.className = "slide";
 
-    const videoTag = document.createElement("video");
-    videoTag.className = "video-carousel";
-    videoTag.setAttribute("controls", "");
 
-    const sourceTag = document.createElement("source");
-    sourceTag.src = data.videoLink;
-    sourceTag.type = "video/mp4";
+    // making video tag
+    // const videoTag = document.createElement("video");
+    // videoTag.className = "video-carousel";
+    // videoTag.setAttribute("controls", "");
 
-    videoTag.appendChild(sourceTag);
+    // const sourceTag = document.createElement("source");
+    // sourceTag.src = data.videoLink.includes("https") || data.videoLink.includes("http") ? data.videoLink : "assets/video/" + data.videoLink;
+    // sourceTag.type = "video/mp4";
+
+    // videoTag.appendChild(sourceTag);
+    //end of making video tag
+
+    // making iframe tag for google drive content
+    const iframeTag = document.createElement("iframe");
+    iframeTag.src = "https://drive.google.com/file/d/" + extractValueFromUrl(data.videoLink) + "/preview";
+    iframeTag.width = "100%";
+    iframeTag.height = "100%";
+    iframeTag.setAttribute("allowfullscreen", "");
+    // end of making iframe tag for google drive content
 
     const h4Title = document.createElement("h4");
     h4Title.innerHTML = data.judul;
@@ -328,7 +350,7 @@ video_contents.forEach((data) => {
     const pDesc = document.createElement("p");
     pDesc.innerHTML = data.deskripsi;
     
-    liSlide.appendChild(videoTag);
+    liSlide.appendChild(iframeTag);
     liSlide.appendChild(h4Title);
     liSlide.appendChild(pDesc);
     ulSlidesContainer.appendChild(liSlide);

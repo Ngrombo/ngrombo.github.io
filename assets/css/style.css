@@ -1085,11 +1085,14 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem;
 }
 
-.slide video {
+.slide iframe {
   border-radius: 20px;
+}
+
+.slide p {
+  margin: 0;
 }
 
 @media (max-width: 1000px) {
@@ -1101,8 +1104,8 @@ section {
     height: fit-content;
   }
 
-  .slide video {
-    height: fit-content;
+  .slide {
+    height: 25rem;
   }
 }
 /* end of video */
