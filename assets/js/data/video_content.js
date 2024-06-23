@@ -14,7 +14,7 @@ const video_contents = [
         deskripsi: "Deskripsi video 2"
     },
     {
-        videoLink: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        videoLink: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         judul: "Video 3",
         deskripsi: "Deskripsi video 3"
     },
