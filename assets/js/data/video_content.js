@@ -4,17 +4,17 @@
 
 const video_contents = [
     {
-        videoLink: 'https://cdn.pixabay.com/video/2021/09/21/89244-614062242_large.mp4',
+        videoLink: 'https://drive.google.com/file/d/13J_CJzsiw8XNcwAyTteIkNcPbimAjHwC/view?usp=sharing',
         judul: "Video 1",
         deskripsi: "Deskripsi video 1"
     },
     {
-        videoLink: 'https://videos.pexels.com/video-files/856479/856479-hd_1366_720_25fps.mp4',
+        videoLink: 'https://drive.google.com/file/d/1jrBFXvgr2d8Hh9ggj-54LgX4DfzPLe2a/view?usp=drive_link',
         judul: "Video 2",
         deskripsi: "Deskripsi video 2"
     },
     {
-        videoLink: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        videoLink: 'https://drive.google.com/file/d/1WT9YTeMfe-yLmdyWW0vsAGp3pcwdYjRZ/view?usp=drive_link',
         judul: "Video 3",
         deskripsi: "Deskripsi video 3"
     },
