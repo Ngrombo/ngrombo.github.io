@@ -5,18 +5,18 @@
 const navbarData = [
     {
         label: "Home",
-        route: "#hero"
+        route: "/"
     },
     {
-        label: "Tentang",
-        route: "#tentang"
+        label: "Profil",
+        route: "/profil.html"
     },
     {
         label: "UMKM",
-        route: "#umkm"
+        route: "/umkm.html"
     },
     {
         label: "Galeri",
-        route: "#galeri"
+        route: "/galeri.html"
     }
 ]
