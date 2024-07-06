@@ -4,17 +4,7 @@
 
 const pengurus_dusun = [
     {
-        nama: "Contoh Orang 1",
-        jabatan: "Jabatan Contoh 1",
-        fotoOrangnya: "team-1.jpg",
-        social: {
-            whatsapp: "to wa",
-            instagram: "IG",
-            facebook: "facebok",
-            tiktok: "titktoek"
-        }
-    },
-    {
+        // Pak Dukuh
         nama: "Karsimin",
         jabatan: "Kepala Dusun Ngrombo",
         fotoOrangnya: "team-1.jpg",
@@ -26,6 +16,19 @@ const pengurus_dusun = [
         }
     },
     {
+        // Pak RT
+        nama: "Contoh Orang 1",
+        jabatan: "Jabatan RT Contoh",
+        fotoOrangnya: "team-1.jpg",
+        social: {
+            whatsapp: "to wa",
+            instagram: "IG",
+            facebook: "facebok",
+            tiktok: "titktoek"
+        }
+    },
+    {
+        // Pak RW
         nama: "Mas Agung",
         jabatan: "Perwakilan Karang Taruna Ngrombo",
         fotoOrangnya: "team-3.jpg",
@@ -36,4 +39,16 @@ const pengurus_dusun = [
             tiktok: "titktoek"
         }
     },
+    {
+        // Karang Taruna
+        nama: "Mas Agung",
+        jabatan: "Perwakilan Karang Taruna Ngrombo",
+        fotoOrangnya: "team-3.jpg",
+        social: {
+            whatsapp: "https://wa.me/6281391517786",
+            instagram: "IG",
+            facebook: "facebok",
+            tiktok: "titktoek"
+        }
+    }
 ]
