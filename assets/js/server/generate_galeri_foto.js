@@ -24,7 +24,13 @@ galeri_foto.forEach((data) => {
     divLinks.className = "portfolio-links";
 
     const aZoom = document.createElement("a");
-    aZoom.href = "assets/img/galeri_foto/" + data.gambar;
+
+    if(data.gambar.includes("https")){
+        aZoom.href = data.gambar;    
+    } else {
+        aZoom.href = "assets/img/galeri_foto/" + data.gambar;
+    }
+
     aZoom.className = "portfolio-lightbox";
     aZoom.setAttribute("data-gallery", "portfolioGallery");
     aZoom.title = data.judul;
