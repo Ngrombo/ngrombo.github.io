@@ -4,6 +4,16 @@
     File ini tidak perlu di edit2, temen2 hanya perlu fokus ke file2 yang ada di dalam folder data
 */
 
+function extractValueFromUrl(url) {
+    const regex = /\/d\/(.*?)\//;
+    const match = url.match(regex);
+
+    if (match && match[1]) {
+        return match[1];
+    } else {
+        return null;
+    }
+}
 
 // Galeri Foto Side
 const galeriFotoContainer = document.getElementById("galeri-foto");
@@ -16,7 +26,13 @@ galeri_foto.forEach((data) => {
     portfolioWrap.className = "portfolio-wrap";
 
     const img = document.createElement("img");
-    img.src = "assets/img/galeri_foto/" + data.gambar;
+
+    if(data.gambar.includes("https")){
+        img.src = "https://lh3.googleusercontent.com/d/" + extractValueFromUrl(data.gambar);
+    } else {
+        img.src = "assets/img/galeri_foto/" + data.gambar;
+    }
+
     img.className = "img-fluid";
 
     // create links
@@ -26,7 +42,7 @@ galeri_foto.forEach((data) => {
     const aZoom = document.createElement("a");
 
     if(data.gambar.includes("https")){
-        aZoom.href = data.gambar;    
+        aZoom.href = "https://lh3.googleusercontent.com/d/" + extractValueFromUrl(data.gambar);
     } else {
         aZoom.href = "assets/img/galeri_foto/" + data.gambar;
     }
@@ -36,16 +52,17 @@ galeri_foto.forEach((data) => {
     aZoom.title = data.judul;
 
     const iZoom = document.createElement("i");
-    iZoom.className = "bx bx-zoom-in";
+    iZoom.className = "bx bx-link";
 
     aZoom.appendChild(iZoom);
 
     const aLink = document.createElement("a");
-    aLink.href = data.link_ke_sumber_lain;
-    aLink.title = "More Details";
+    aLink.href = "https://lh3.googleusercontent.com/d/" + extractValueFromUrl(data.gambar);
+    aLink.setAttribute("target", "_blank");
+    aLink.title = "Tampilkan Gambar Lebih Besar";
 
     const iLink = document.createElement("i");
-    iLink.className = "bx bx-link";
+    iLink.className = "bx bx-zoom-in";
 
     aLink.appendChild(iLink);
 
