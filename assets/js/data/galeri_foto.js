@@ -5,34 +5,16 @@
 
 const galeri_foto = [
     {
-        gambar: "sebelah_dukuh.png",
+        gambar: "https://drive.google.com/file/d/1s_jfkEMA3YLAEZmwPMfUydpoI80SWSrm/view?usp=drive_link",
         judul: "Foto Sebelah Dukuh",
-        link_ke_sumber_lain: ""
     },
     {
-        gambar: "sd.png",
+        gambar: "https://drive.google.com/file/d/1v0XFTxVKWll6aaZ_-YwkRu-EslIjfBQL/view?usp=sharing",
         judul: "Sekolah Dasar",
-        link_ke_sumber_lain: ""
     },
     {
-        gambar: "voli.png",
+        gambar: "https://drive.google.com/file/d/1GsH2YSpHAghxH-ktQ-zpeoQX095ED8hU/view?usp=drive_link",
         judul: "Kegiatan Voli",
-        link_ke_sumber_lain: ""
-    },
-    {
-        gambar: "portfolio-4.jpg",
-        judul: "Foto 4",
-        link_ke_sumber_lain: ""
-    },
-    {
-        gambar: "portfolio-5.jpg",
-        judul: "Foto 5",
-        link_ke_sumber_lain: ""
-    },
-    {
-        gambar: "portfolio-6.jpg",
-        judul: "Foto 6",
-        link_ke_sumber_lain: ""
     },
 ]
 

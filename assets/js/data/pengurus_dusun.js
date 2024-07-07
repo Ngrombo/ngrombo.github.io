@@ -7,7 +7,7 @@ const pengurus_dusun = [
         // Pak Dukuh
         nama: "Karsimin",
         jabatan: "Kepala Dusun Ngrombo",
-        fotoOrangnya: "team-1.jpg",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
         social: {
             whatsapp: "",
             instagram: "",
@@ -16,10 +16,10 @@ const pengurus_dusun = [
         }
     },
     {
-        // Pak RT
-        nama: "Contoh Orang 1",
-        jabatan: "Jabatan RT Contoh",
-        fotoOrangnya: "team-1.jpg",
+        // Pak RW
+        nama: "Pak RW",
+        jabatan: "RW",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
         social: {
             whatsapp: "to wa",
             instagram: "IG",
@@ -28,10 +28,10 @@ const pengurus_dusun = [
         }
     },
     {
-        // Pak RW
-        nama: "Mas Agung",
-        jabatan: "Perwakilan Karang Taruna Ngrombo",
-        fotoOrangnya: "team-3.jpg",
+        // Pak RT
+        nama: "Pak RT 1",
+        jabatan: "RT 1",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
         social: {
             whatsapp: "https://wa.me/6281391517786",
             instagram: "IG",
@@ -40,15 +40,36 @@ const pengurus_dusun = [
         }
     },
     {
-        // Karang Taruna
-        nama: "Mas Agung",
-        jabatan: "Perwakilan Karang Taruna Ngrombo",
-        fotoOrangnya: "team-3.jpg",
+        nama: "Pak RT 2",
+        jabatan: "RT 2",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
         social: {
             whatsapp: "https://wa.me/6281391517786",
             instagram: "IG",
             facebook: "facebok",
             tiktok: "titktoek"
         }
-    }
+    },
+    {
+        nama: "Pak RT 3",
+        jabatan: "RT 3",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
+        social: {
+            whatsapp: "https://wa.me/6281391517786",
+            instagram: "IG",
+            facebook: "facebok",
+            tiktok: "titktoek"
+        }
+    },
+    {
+        nama: "Pak RT 4",
+        jabatan: "RT 4",
+        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
+        social: {
+            whatsapp: "https://wa.me/6281391517786",
+            instagram: "IG",
+            facebook: "facebok",
+            tiktok: "titktoek"
+        }
+    },
 ]

@@ -4,6 +4,16 @@
     File ini tidak perlu di edit2, temen2 hanya perlu fokus ke file2 yang ada di dalam folder data
 */
 
+function extractValueFromUrl(url) {
+    const regex = /\/d\/(.*?)\//;
+    const match = url.match(regex);
+
+    if (match && match[1]) {
+        return match[1];
+    } else {
+        return null;
+    }
+}
 
 
 // UMKM Side
@@ -22,7 +32,12 @@ umkm_content.forEach((data) => {
     divPicture.className = "icon d-flex justify-content-center";
 
     const img = document.createElement("img");
-    img.src = "assets/img/umkm/" + data.gambarProduk;
+
+    if(data.gambarProduk.includes("https")){
+        img.src = "https://lh3.googleusercontent.com/d/" + extractValueFromUrl(data.gambarProduk);
+    } else {
+        img.src = "assets/img/umkm/" + data.gambarProduk;
+    }
     img.width = 200;
 
     divPicture.appendChild(img);
