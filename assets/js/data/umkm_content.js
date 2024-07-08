@@ -14,7 +14,7 @@ const umkm_content = [
         keterangan: "Olahan pisang yang biasa makan sebagai camilan."
     },
     {
-        namaProduk: "Peyek Tuna",
+        namaProduk: "Peyek Kacang",
         gambarProduk: "https://drive.google.com/file/d/1HL390uvjzRAXj1ReN9bOJkuMGvV2echi/view?usp=drive_link",
         keterangan: "Tuna yang diolah menjadi peyek dan biasanya untuk sebagai pendamping ketika makan."
     },
