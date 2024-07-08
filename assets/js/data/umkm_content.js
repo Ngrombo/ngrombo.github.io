@@ -18,4 +18,9 @@ const umkm_content = [
         gambarProduk: "https://drive.google.com/file/d/1HL390uvjzRAXj1ReN9bOJkuMGvV2echi/view?usp=drive_link",
         keterangan: "Tuna yang diolah menjadi peyek dan biasanya untuk sebagai pendamping ketika makan."
     },
+    {
+        namaProduk: "Jagung Kering",
+        gambarProduk: "https://drive.google.com/file/d/1HL390uvjzRAXj1ReN9bOJkuMGvV2echi/view?usp=drive_link",
+        keterangan: "Jagung yang di keringkan untuk pakan ternak."
+    },
 ]
