@@ -21,7 +21,7 @@ const umkmContainer = document.getElementById("umkm-content");
 
 umkm_content.forEach((data) => {
     const rootDivUMKMItemContainer = document.createElement("div");
-    rootDivUMKMItemContainer.className = "col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0";
+    rootDivUMKMItemContainer.className = "col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0";
 
     const divInnerWrapperFadeUp = document.createElement("div");
     divInnerWrapperFadeUp.className = "icon-box";
@@ -38,6 +38,7 @@ umkm_content.forEach((data) => {
     } else {
         img.src = "assets/img/umkm/" + data.gambarProduk;
     }
+
     img.width = 200;
 
     divPicture.appendChild(img);
