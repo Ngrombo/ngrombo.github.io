@@ -4,23 +4,23 @@
 
 const umkm_content = [
     {
-        namaProduk: "Keripik Tempe",
+        namaProduk: "Anugrah Snack",
         gambarProduk: "https://drive.google.com/file/d/1kppwRhqkjh8YudN2H4T29neanyoThEmE/view?usp=sharing",
-        keterangan: "Tempe yang diolah menjadi makanan pendamping atau camilan yaitu Keripik Tempe."
+        keterangan: "Anugrah Snack memproduksi berbagai jenis snack seperti keripik tempe, peyek kacang dan keripik pisang."
     },
     {
-        namaProduk: "Keripik Pisang",
-        gambarProduk: "https://drive.google.com/file/d/1ZyS52xYy7gbgv80W7UtzaPhdzoG6JaoU/view?usp=drive_link",
-        keterangan: "Olahan pisang yang biasa makan sebagai camilan."
+        namaProduk: "Sun Villea",
+        gambarProduk: "https://drive.google.com/file/d/1hogPuPDCSRkd295no5EovkUnQWytE1Oh/view?usp=drive_link",
+        keterangan: "Sun Villea memproduksi berbagai jenis roti dan bolu seperti kue ulang tahun, bolu kukus, dan kue lapis."
     },
     {
-        namaProduk: "Peyek Kacang",
-        gambarProduk: "https://drive.google.com/file/d/1HL390uvjzRAXj1ReN9bOJkuMGvV2echi/view?usp=drive_link",
-        keterangan: "Tuna yang diolah menjadi peyek dan biasanya untuk sebagai pendamping ketika makan."
+        namaProduk: "Myuusa",
+        gambarProduk: "https://drive.google.com/file/d/1QbGrWjwLUqrC5Mvz_ZAG2Q78TCIN6gZm/view?usp=drive_link",
+        keterangan: "Myuusa memproduksi berbagai tas tradisional dari bahan alami."
     },
     {
-        namaProduk: "Jagung Kering",
-        gambarProduk: "https://drive.google.com/file/d/1HL390uvjzRAXj1ReN9bOJkuMGvV2echi/view?usp=drive_link",
-        keterangan: "Jagung yang di keringkan untuk pakan ternak."
+        namaProduk: "Bela Snack",
+        gambarProduk: "https://drive.google.com/file/d/1PUFT3LWga_D68vBkLapd7_ctZMgBZcPm/view?usp=drive_link",
+        keterangan: "Bela Snack memproduksi berbagai jenis snack seperti keripik tempe, peyek kacang dan keripik pisang."
     },
 ]
