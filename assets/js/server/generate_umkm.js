@@ -18,7 +18,6 @@ function extractValueFromUrl(url) {
 
 // UMKM Side
 const umkmContainer = document.getElementById("umkm-content");
-let id = 1;
 
 umkm_content.forEach((data) => {
     const rootDivUMKMItemContainer = document.createElement("div");
@@ -27,7 +26,6 @@ umkm_content.forEach((data) => {
     const divInnerWrapperFadeUp = document.createElement("div");
     divInnerWrapperFadeUp.className = "icon-box";
     divInnerWrapperFadeUp.id = "umkm-item";
-    id++;
     // divInnerWrapperFadeUp.setAttribute("data-aos", "fade-up");
 
     // creating image wrapper
