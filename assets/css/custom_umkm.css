@@ -1,0 +1,24 @@
+.hover-reveal {
+    height: 18rem;
+}
+
+.hover-reveal:hover {
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.truncate-multiline {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;  /* Number of lines to show before truncating */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.title-wrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.show {
+    display: block;
+}
