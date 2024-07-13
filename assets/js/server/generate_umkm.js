@@ -18,14 +18,17 @@ function extractValueFromUrl(url) {
 
 // UMKM Side
 const umkmContainer = document.getElementById("umkm-content");
+let id = 1;
 
 umkm_content.forEach((data) => {
     const rootDivUMKMItemContainer = document.createElement("div");
     rootDivUMKMItemContainer.className = "col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0";
 
     const divInnerWrapperFadeUp = document.createElement("div");
-    divInnerWrapperFadeUp.className = "icon-box hover-reveal";
-    divInnerWrapperFadeUp.setAttribute("data-aos", "fade-up");
+    divInnerWrapperFadeUp.className = "icon-box";
+    divInnerWrapperFadeUp.id = "umkm-item";
+    id++;
+    // divInnerWrapperFadeUp.setAttribute("data-aos", "fade-up");
 
     // creating image wrapper
     const divPicture = document.createElement("div");
@@ -33,8 +36,8 @@ umkm_content.forEach((data) => {
 
     divPicture.setAttribute("style", `
         max-width: 100%;
-        max-height: 50%;
-        overflow: hidden;    
+        max-height: 90%;
+        overflow: hidden;
     `)
 
     const img = document.createElement("img");
@@ -49,24 +52,46 @@ umkm_content.forEach((data) => {
     img.setAttribute("style", `
         display: block;
         width: 100%;
-        height: 50%;
+        height: 70%;
     `);
 
     divPicture.appendChild(img);
     // end of creating image wrapper
 
+    const divTitleReadMoreWrapper = document.createElement("div");
+
     const h4Title = document.createElement("h4");
     h4Title.className = "title";
     h4Title.innerHTML = data.namaProduk;
+
+    const readMore = document.createElement("p");
+    readMore.innerHTML = "Selengkapnya..";
+    readMore.setAttribute("style", `
+        text-decoration: underline;
+        font-style: italic;
+        font-size: 14px;
+        color: grey;
+    `);
+
+    readMore.className = "show";
+
+    divInnerWrapperFadeUp.addEventListener("mouseleave", () => {
+        // console.log("TEST");
+        divInnerWrapperFadeUp.scrollTop = 0;
+    });
 
     const pDesc = document.createElement("p");
     pDesc.className = "description";
     pDesc.innerHTML = data.keterangan;
 
+    divTitleReadMoreWrapper.appendChild(h4Title);
+    divTitleReadMoreWrapper.appendChild(readMore);
+
+    divTitleReadMoreWrapper.className = "title-wrapper";
 
     // append to inner wrapper fade up div
     divInnerWrapperFadeUp.appendChild(divPicture);
-    divInnerWrapperFadeUp.appendChild(h4Title);
+    divInnerWrapperFadeUp.appendChild(divTitleReadMoreWrapper);
     divInnerWrapperFadeUp.appendChild(pDesc);
 
     // append to main root UMKM content container

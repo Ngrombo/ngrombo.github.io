@@ -716,9 +716,10 @@ section {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  height: 18rem;
+  transition: height 0.3s ease-in-out;
 }
 
 .services .icon-box::before {
@@ -733,11 +734,38 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.services .icon-box:hover {
+  height: 26rem;
+  overflow-y: scroll;
+}
+
+/* Target the whole document scrollbar */
+.services .icon-box::-webkit-scrollbar {
+  width: 6px; /* width of the scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+.services .icon-box::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Handle (thumb) */
+.services .icon-box::-webkit-scrollbar-thumb {
+  background: #888; /* color of the handle */
+  border-radius: 6px; /* roundness of the handle */
+}
+
+/* Handle on hover */
+.services .icon-box::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the handle when hovered */
+}
+
+/* .services .icon-box:hover::before {
   background: #67b0d1;
   top: 0;
   border-radius: 0px;
-}
+} */
+
 
 .services .icon {
   margin-bottom: 15px;
@@ -747,7 +775,7 @@ section {
   font-size: 48px;
   line-height: 1;
   color: #67b0d1;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 .services .title {
@@ -766,10 +794,10 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a,
+/* .services .icon-box:hover .title a,
 .services .icon-box:hover .description {
   color: #fff;
-}
+} */
 
 .services .icon-box:hover .icon i {
   color: #fff;
