@@ -24,12 +24,18 @@ umkm_content.forEach((data) => {
     rootDivUMKMItemContainer.className = "col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0";
 
     const divInnerWrapperFadeUp = document.createElement("div");
-    divInnerWrapperFadeUp.className = "icon-box";
+    divInnerWrapperFadeUp.className = "icon-box hover-reveal";
     divInnerWrapperFadeUp.setAttribute("data-aos", "fade-up");
 
     // creating image wrapper
     const divPicture = document.createElement("div");
-    divPicture.className = "icon d-flex justify-content-center";
+    divPicture.className = "icon";
+
+    divPicture.setAttribute("style", `
+        max-width: 100%;
+        max-height: 50%;
+        overflow: hidden;    
+    `)
 
     const img = document.createElement("img");
 
@@ -40,6 +46,11 @@ umkm_content.forEach((data) => {
     }
 
     img.width = 200;
+    img.setAttribute("style", `
+        display: block;
+        width: 100%;
+        height: 50%;
+    `);
 
     divPicture.appendChild(img);
     // end of creating image wrapper
