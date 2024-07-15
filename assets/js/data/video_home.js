@@ -3,7 +3,7 @@
 */
 
 const video_home = {
-    videoLink: 'https://drive.google.com/file/d/13J_CJzsiw8XNcwAyTteIkNcPbimAjHwC/view?usp=sharing',
-    judul: "Video 1",
-    deskripsi: "Deskripsi video 1"
+    videoLink: 'https://drive.google.com/file/d/167HzYpDak_HQA1XpvqT44MfPs6VLLSJC/view?usp=drive_link',
+    judul: "Video Profile Ngrombo",
+    deskripsi: "Ini adalah video profile dari Padukuhan Ngrombo."
 };
