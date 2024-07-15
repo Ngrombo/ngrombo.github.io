@@ -87,10 +87,31 @@ umkm_content.forEach((data) => {
 
     divTitleReadMoreWrapper.className = "title-wrapper";
 
+    const divListProdukWrapper = document.createElement("div");
+    const pKeteranganList = document.createElement("p");
+    pKeteranganList.innerHTML = "Produk yang di produksi : ";
+    pKeteranganList.setAttribute("style", `
+        margin-top: 1rem;    
+    `)
+
+    divListProdukWrapper.appendChild(pKeteranganList);
+
+    const divListProduk = document.createElement("div");
+    divListProduk.className = "";
+
+    data.daftarProduksi.forEach((produk) => {
+        const liProduk = document.createElement("li");
+        liProduk.innerHTML = produk;
+        divListProduk.appendChild(liProduk);
+    });
+
+    divListProdukWrapper.appendChild(divListProduk);
+
     // append to inner wrapper fade up div
     divInnerWrapperFadeUp.appendChild(divPicture);
     divInnerWrapperFadeUp.appendChild(divTitleReadMoreWrapper);
     divInnerWrapperFadeUp.appendChild(pDesc);
+    divInnerWrapperFadeUp.appendChild(divListProdukWrapper);
 
     // append to main root UMKM content container
     rootDivUMKMItemContainer.appendChild(divInnerWrapperFadeUp);
