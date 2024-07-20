@@ -53,7 +53,7 @@ const pengurus_dusun = [
     {
         nama: "Pak RT 3",
         jabatan: "RT 3",
-        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
+        fotoOrangnya: "https://drive.google.com/file/d/14YMBx7x9H8IzaHJVJAjkvJPxMmp57pps/view?usp=drive_link",
         social: {
             whatsapp: "https://wa.me/6281391517786",
             instagram: "IG",
@@ -64,7 +64,7 @@ const pengurus_dusun = [
     {
         nama: "Pak RT 4",
         jabatan: "RT 4",
-        fotoOrangnya: "https://drive.google.com/file/d/1ZtfNNwIdYUHSlaGq-8LPTB3GY6nmFhQh/view?usp=sharing",
+        fotoOrangnya: "https://drive.google.com/file/d/1eYPcUpIb3AAFJbJQKAz1cMs35eAv2yl3/view?usp=drive_link",
         social: {
             whatsapp: "https://wa.me/6281391517786",
             instagram: "IG",
