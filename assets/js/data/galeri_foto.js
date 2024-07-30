@@ -16,9 +16,5 @@ const galeri_foto = [
         gambar: "https://drive.google.com/file/d/1GsH2YSpHAghxH-ktQ-zpeoQX095ED8hU/view?usp=drive_link",
         judul: "Kegiatan Voli",
     },
-    {
-        gambar: "https://drive.google.com/file/d/18HeZuzAralYzxpq-zvZYJIr1nBQPrCQl/view?usp=drive_link",
-        judul: "Dapur",
-    },
 ]
 
