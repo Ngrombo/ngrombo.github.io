@@ -17,14 +17,14 @@ const pengurus_dusun = [
     },
     {
         // Pak RW
-        nama: "Pak RW",
+        nama: "Suradal",
         jabatan: "RW",
         fotoOrangnya: "https://drive.google.com/file/d/187tsg_HNFKk11t0RYPKRQ1zk-Nd4ZsA2/view?usp=drive_link",
         social: {
-            whatsapp: "to wa",
-            instagram: "IG",
-            facebook: "facebok",
-            tiktok: "titktoek"
+            whatsapp: "",
+            instagram: "",
+            facebook: "",
+            tiktok: ""
         }
     },
     {
