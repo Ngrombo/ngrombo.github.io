@@ -3,11 +3,9 @@
 */
 
 const tentang_text = `
-Permukiman Ngrombo telah ada sejak Pemerintahan Desa ketiga. 
-Pada masa Lurah R. Pawiro Atmojo, beberapa tokoh desa seperti Ki Darmo Sentono, Ki Songko, Ki Suparso, dan Ki Sukirno berperan penting. 
-Awalnya, pemilihan kepala dusun dilakukan oleh Lurah, namun berubah menjadi pemilihan langsung oleh masyarakat setelah datangnya Ki Sukirno.
-Ngrombo kemudian menjadi bagian dari Kawasan Permukiman Purworejo dan akhirnya berdiri sendiri sebagai permukiman mandiri setelah masa kepemimpinan R. Pawiro Atmojo. 
-Warga sering berkumpul di Balai Padukuhan. 
-Seni pertunjukan di Ngrombo mencakup Karawitan, Wayang Kulit, dan Jatilan. 
-Selain bertani dan beternak, banyak warga bekerja sebagai penjahit, sehingga Ngrombo dikenal juga sebagai Desa Konveksi.
+Dusun Ngrombo, terletak di Desa Tileng, Kecamatan Gunung Kidul, Yogyakarta, menawarkan pemandangan alam yang memukau dan suasana 
+tenang jauh dari hiruk-pikuk perkotaan. Dusun ini dikenal dengan perbukitan hijau, udara segar, serta kearifan lokal yang kental. 
+Nama "Ngrombo" berasal dari bahasa Jawa yang berarti tempat dengan vegetasi lebat dan tanah subur. 
+Dusun ini terkenal karena komunitasnya yang erat dan budaya gotong royong yang kuat, serta tetap mempertahankan tradisi dan nilai-nilai budaya lokal. 
+Seiring waktu, Dusun Ngrombo berkembang menjadi desa sejahtera, menjaga warisan budaya dan lingkungan alamnya.
 `
