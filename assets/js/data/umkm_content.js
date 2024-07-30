@@ -15,7 +15,7 @@ const umkm_content = [
     },
     {
         namaProduk: "Sun Villea",
-        gambarProduk: "https://drive.google.com/file/d/1hogPuPDCSRkd295no5EovkUnQWytE1Oh/view?usp=drive_link",
+        gambarProduk: "https://drive.google.com/file/d/1npMxYD0JkFDXJYZF0YXlECcKB7E5cSZf/view?usp=drive_link",
         keterangan: "Sun Villea memproduksi berbagai jenis roti dan bolu seperti kue ulang tahun, bolu kukus, dan kue lapis.",
         daftarProduksi: [
             'Kue Ulang Tahun',
@@ -25,7 +25,7 @@ const umkm_content = [
     },
     {
         namaProduk: "Myuusa",
-        gambarProduk: "https://drive.google.com/file/d/1QbGrWjwLUqrC5Mvz_ZAG2Q78TCIN6gZm/view?usp=drive_link",
+        gambarProduk: "https://drive.google.com/file/d/1Kwio10MvIvqk7EaR82WnsJU8OHBgTcsw/view?usp=drive_link",
         keterangan: "Myuusa memproduksi berbagai tas tradisional dari bahan alami.",
         daftarProduksi: [
             'Tas'
