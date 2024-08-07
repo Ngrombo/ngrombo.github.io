@@ -18,7 +18,7 @@ const pengurus_dusun = [
     {
         // Pak RW
         nama: "Suradal",
-        jabatan: "RW",
+        jabatan: "Kepala RW",
         fotoOrangnya: "https://drive.google.com/file/d/187tsg_HNFKk11t0RYPKRQ1zk-Nd4ZsA2/view?usp=drive_link",
         social: {
             whatsapp: "",
@@ -29,8 +29,8 @@ const pengurus_dusun = [
     },
     {
         // Pak RT
-        nama: "Agus Gunawan",
-        jabatan: "RT 1",
+        nama: "Sukarman",
+        jabatan: "Kepala RT 1",
         fotoOrangnya: "https://drive.google.com/file/d/11qhctisZwCz-NHpmxLOPCPFR4pza9-B_/view?usp=drive_link",
         social: {
             whatsapp: "",
@@ -40,8 +40,8 @@ const pengurus_dusun = [
         }
     },
     {
-        nama: "Mardiyanto",
-        jabatan: "RT 2",
+        nama: "Cahya",
+        jabatan: "Kepala RT 2",
         fotoOrangnya: "https://drive.google.com/file/d/1gkC8lmLhI1BrD_D5dsgNv2hryH_EFsuC/view?usp=drive_link",
         social: {
             whatsapp: "",
@@ -51,8 +51,8 @@ const pengurus_dusun = [
         }
     },
     {
-        nama: "Iswanto",
-        jabatan: "RT 3",
+        nama: "Untung",
+        jabatan: "Kepala RT 3",
         fotoOrangnya: "https://drive.google.com/file/d/14YMBx7x9H8IzaHJVJAjkvJPxMmp57pps/view?usp=drive_link",
         social: {
             whatsapp: "",
@@ -62,8 +62,8 @@ const pengurus_dusun = [
         }
     },
     {
-        nama: "Edi Saraya",
-        jabatan: "RT 4",
+        nama: "Dwi Wantara",
+        jabatan: "Kepala RT 4",
         fotoOrangnya: "https://drive.google.com/file/d/1eYPcUpIb3AAFJbJQKAz1cMs35eAv2yl3/view?usp=drive_link",
         social: {
             whatsapp: "",
