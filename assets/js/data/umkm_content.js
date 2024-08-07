@@ -14,13 +14,17 @@ const umkm_content = [
         ]
     },
     {
-        namaProduk: "Sun Villea",
+        namaProduk: "Sanfilea",
         gambarProduk: "https://drive.google.com/file/d/1npMxYD0JkFDXJYZF0YXlECcKB7E5cSZf/view?usp=drive_link",
-        keterangan: "Sun Villea memproduksi berbagai jenis roti dan bolu seperti kue ulang tahun, bolu kukus, dan kue lapis.",
+        keterangan: "Sanfilea memproduksi berbagai jenis roti dan bolu seperti kue ulang tahun, bolu kukus, dan kue lapis.",
         daftarProduksi: [
             'Kue Ulang Tahun',
-            'Bolu Kukus',
-            'Kue Lapis'
+            'Bolu Kukus (Pre Order)',
+            'Kue Lapis',
+            'Kue Kering',
+            'Kue Kukus',
+            'Akar Kelapa',
+            'Krupuk Ubi'
         ]
     },
     {
